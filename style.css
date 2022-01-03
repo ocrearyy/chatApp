@@ -37,14 +37,57 @@
 	padding: 20px 40px;
 	border-radius: 8px;
 	flex-basis: 70%;
+	font-weight: 300;
 }
-.msg-text {
+.msg-text h2 {
 	font-weight: 400;
 	font-size: 22px;
 	margin-bottom: 10px;
 }
-.msg-img{
+.msg-img {
 	width: 50px;
 	border-radius: 50%;
 	margin: 0 20px;
+}
+
+.msg-row2 {
+	justify-content: flex-end;
+}
+
+.col-1 input {
+	border: 0;
+	outline: none;
+	padding: 20px 40px;
+	background: #3874c9;
+	color: #fff;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 300;
+}
+::placeholder {
+	color: #fff;
+}
+
+.col-2 h3 {
+	text-align: center;
+	margin-top: 40px;
+	font-weight: 400;
+}
+
+.col-2 ul {
+	list-style: none;
+	padding: 30px;
+}
+
+.col-2 ul li {
+	padding: 5px 0;
+}
+.col-2 ul li::before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: red;
+	display: inline-block;
+	margin-right: 10px;
 }
