@@ -91,3 +91,22 @@
 	display: inline-block;
 	margin-right: 10px;
 }
+
+.col-2 ul li.online::before {
+	background-color: greenyellow;
+}
+
+.col-2 ul li.offline::before {
+	background-color: tomato;
+}
+
+.col-2 ul li.busy::before {
+	background-color: yellow;
+}
+
+.copyright {
+	text-align: center;
+	vertical-align: bottom;
+	bottom: 0;
+	position: relative;
+}
