@@ -93,15 +93,15 @@
 }
 
 .col-2 ul li.online::before {
-	background-color: greenyellow;
+	background-color: #adff2f;
 }
 
 .col-2 ul li.offline::before {
-	background-color: tomato;
+	background-color: #ff6347;
 }
 
 .col-2 ul li.busy::before {
-	background-color: yellow;
+	background-color: #FFFF00;
 }
 
 .copyright {
